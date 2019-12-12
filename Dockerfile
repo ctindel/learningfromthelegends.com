@@ -12,7 +12,11 @@ RUN apt-get -y update && \
     cd /tmp/lftl && \
     git clone https://github.com/gohugoio/hugo.git && \
     cd hugo && \
-    /usr/local/go/bin/go install --tags extended
+    /usr/local/go/bin/go install --tags extended && \
+    echo "#!/bin/bash\ncd /mnt/lftl; /root/go/bin/hugo server -w --bind 0.0.0.0 -b http://localhost:8080/ --disableFastRender --appendPort=false" > /tmp/lftl/run_local.sh && \
+    chmod 755 /tmp/lftl/run_local.sh && \
+    echo "#!/bin/bash\necho \"Run 'docker exec -it lftl_shell /bin/bash'\"\n echo \"Press [CTRL+C] to stop..\"\nwhile true\ndo\n   sleep 1\ndone" > /tmp/lftl/run_shell.sh && \
+    chmod 755 /tmp/lftl/run_shell.sh
 
 CMD ["/bin/bash"]
 ENTRYPOINT ["/bin/bash", "-c"]

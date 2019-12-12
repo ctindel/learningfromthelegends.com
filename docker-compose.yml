@@ -5,4 +5,18 @@ services:
       context: .
     image: lftl
     container_name: lftl
-    command: cd /mnt/lftl; /go/bin/hugo server -w --bind 0.0.0.0 -b http://localhost:8080/ --disableFastRender --appendPort=false
+    volumes:
+      - .:/mnt/lftl
+    ports:
+      - "8080:1313"
+    command: /tmp/lftl/run_local.sh
+  lftl_shell:
+    build:
+      context: .
+    image: lftl
+    container_name: lftl_shell
+    volumes:
+      - .:/mnt/lftl
+    ports:
+      - "8080:1313"
+    command: /tmp/lftl/run_shell.sh
