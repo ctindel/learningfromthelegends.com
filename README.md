@@ -25,4 +25,4 @@ cd /mnt/learningfromthelegends.com
 ~/go/bin/hugo server -w --bind 0.0.0.0 -b http://localhost:8080/ --disableFastRender --appendPort=false
 ```
 
-Load [http://localhost:8080] in your browser
+Load [http://localhost:8080](http://localhost:8080) in your browser
