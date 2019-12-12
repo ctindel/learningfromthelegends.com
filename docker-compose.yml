@@ -1,0 +1,8 @@
+version: '2'
+services:
+  lftl:
+    build:
+      context: .
+    image: lftl
+    container_name: lftl
+    command: cd /mnt/lftl; /go/bin/hugo server -w --bind 0.0.0.0 -b http://localhost:8080/ --disableFastRender --appendPort=false
