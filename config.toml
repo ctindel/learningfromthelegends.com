@@ -9,6 +9,7 @@ defaultContentLanguage = "en"
 #disqusShortname = "lftl"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-51743090-1"
+publishDir = "dev_publish"
 
 # Define the number of posts per page
 paginate = 10
