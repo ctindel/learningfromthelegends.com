@@ -1,13 +1,24 @@
-name: CI
+name: hugo publish
 
-on: [push]
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
-  build:
+  publish:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
-    - name: Hugo Actions
-      uses: srt32/hugo-action@v0.0.3
+    - name: build
+      uses: github-actions-x/hugo@master
+    - name: push
+      uses: github-actions-x/commit@v2.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'hugo publish!'
+        force-add: 'true'
+        files: public/
