@@ -1,4 +1,4 @@
-name: CI
+name: hugo publish
 
 on: [push]
 
@@ -9,5 +9,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Hugo Actions
-      uses: srt32/hugo-action@v0.0.3
+    - name: build
+      uses: github-actions-x/hugo@master
+    - name: push
+      uses: github-actions-x/commit@v2.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'staging'
+        commit-message: 'hugo publish!'
+        force-add: 'true'
+        files: public/
