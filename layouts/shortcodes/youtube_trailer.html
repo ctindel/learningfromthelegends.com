@@ -19,7 +19,7 @@
     {{ $.Scratch.Add "end" "" }}
 {{ end }}
 
-<div style="position: relative; padding-bottom: {{ $.Scratch.Get "ratio" }}%; overflow: hidden;">
+<div style="position: relative; overflow: hidden;">
     <iframe width="640" height="360"
         src="http://www.youtube.com/embed/{{ index .Params 0 }}{{ $.Scratch.Get "start" }}{{ $.Scratch.Get "end" }}" allowfullscreen frameborder="0">
     </iframe>
