@@ -1,11 +1,15 @@
-+++
-title = "High Definition Streaming Now Available!"
-date = "2017-03-28T00:00:00Z"
-tags = ["theme"]
-categories = ["announcements"]
-description = "High Definition Streaming Now Available!"
-banner = "img/banners/L-glyph-3D.jpg"
-+++
+---
+title: "High Definition Streaming Now Available!"
+date: "2017-03-28T00:00:00Z"
+tags:
+  - "trumpet"
+  - "violin"
+categories:
+  - "announcements"
+description: "High Definition Streaming Now Available!"
+banner: "img/banners/L-glyph-3D.jpg"
+author: "Chad Tindel"
+---
 
 ## Trumpet DVD Testimonials
 It’s been a year since we released the Haydn and Hummel Trumpet Concerto DVDs from the legendary Rolf Smedvig, and look at some of the great feedback we’ve been receiving:

@@ -1,11 +1,14 @@
-+++
-title = "Rolf Smedvig Trumpet Exercise Book Now Available!"
-date = "2018-01-11T00:00:00Z"
-tags = ["theme"]
-categories = ["announcements"]
-description = "Rolf Smedvig Trumpet Exercise Book Now Available!"
-banner = "img/banners/L-glyph-3D.jpg"
-+++
+---
+title: "Rolf Smedvig Trumpet Exercise Book Now Available!"
+date: "2018-01-11T00:00:00Z"
+tags:
+  - "trumpet"
+categories:
+  - "announcements"
+description: "Rolf Smedvig Trumpet Exercise Book Now Available!"
+banner: "img/banners/L-glyph-3D.jpg"
+author: "Chad Tindel"
+---
 
 It's been a couple of years since we released the [Rolf Smedvig Haydn and Hummel Trumpet Concerto DVDs](/instruments/trumpet).  One of the things that was mentioned in the DVDs is that some bonus technical exercises were included with the product.  Many of you have written in to ask about these as you couldn't find them under the DVD bonus features section.
 

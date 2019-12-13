@@ -1,11 +1,14 @@
-+++
-title = "Two New Trumpet DVDs Shipping Today!"
-date = "2015-12-01T00:00:00Z"
-tags = ["theme"]
-categories = ["announcements"]
-description = "Two New Trumpet DVDs Shipping Today!"
-banner = "img/banners/L-glyph-3D.jpg"
-+++
+---
+title: "Two New Trumpet DVDs Shipping Today!"
+date: "2015-12-01T00:00:00Z"
+tags:
+  - "trumpet"
+categories:
+  - "announcements"
+description: "Two New Trumpet DVDs Shipping Today!"
+banner: "img/banners/L-glyph-3D.jpg"
+author: "Chad Tindel"
+---
 
 Learning from the Legends made history in 2014 by publishing the first-ever set of classical music education lessons meant for advanced students, and the release was a smashing success!  Just look at some of [these testimonials](/testimonials) we received for our [Mendelssohn](/instruments/violin/mendelssohn) and [Bruch](/instruments/violin/bruch) DVDs from luminaries such as John Corigliano, Aaron Dworkin, and Philippe Quint.  In that initial post we said that our long term goal was to “expand our line to include all the string, brass, and woodwind instruments as well as several vocal ranges.”
 

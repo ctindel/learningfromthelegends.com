@@ -1,11 +1,14 @@
-+++
-title = "Welcome to Learning from the Legends"
-date = "2014-05-16T00:00:00Z"
-tags = ["theme"]
-categories = ["announcements"]
-description = "Welcome to Learning from the Legends!"
-banner = "img/banners/L-glyph-3D.jpg"
-+++
+---
+title: "Welcome to Learning from the Legends"
+date: "2014-05-16T00:00:00Z"
+tags:
+  - "violin"
+categories:
+  - "announcements"
+description: "Welcome to Learning from the Legends!"
+banner: "img/banners/L-glyph-3D.jpg"
+author: "Chad Tindel"
+---
 
 Four years ago we set out on a mission based on a simple idea - to bring high quality music education into the homes of students all around the world. We recognize that music education budgets are being cut all over the world; the majority of instrumental students may not have access to private instruction, and therefore never master the most essential repertoire for their instruments. It is our goal to provide to all music students access to lessons taught by world-renowned performers of the absolute highest caliber.
 

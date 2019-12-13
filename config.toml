@@ -139,9 +139,9 @@ paginate = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = false
-    tags = false
-    search = false
+    categories = true
+    tags = true
+    search = true
 
 [params.carousel]
     enable = true
