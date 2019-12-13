@@ -19,5 +19,4 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'hugo publish!'
-        force-add: 'true'
         files: public/
