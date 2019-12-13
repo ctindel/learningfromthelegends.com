@@ -17,7 +17,7 @@ jobs:
       run: echo ${{ github.ref }}
     - name: push
       uses: github-actions-x/commit@v2.1
-      if: github.ref == 'master'
+      if: github.ref == 'refs/heads/master'
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
