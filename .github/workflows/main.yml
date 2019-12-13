@@ -12,7 +12,7 @@ jobs:
     - name: build
       uses: github-actions-x/hugo@master
       with:
-        args: -d public/
+        args: -d docs/
     - name: debug
       run: echo ${{ github.ref }}
     - name: push
@@ -22,4 +22,4 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'hugo publish!'
-        files: public/
+        files: docs/
