@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Instruments on Universal</title>
+    <link>http://learningfromthelegends.com/instruments/</link>
+    <description>Recent content in Instruments on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://learningfromthelegends.com/instruments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FELIX MENDELSSOHN: VIOLIN CONCERTO IN E MINOR, OP. 64.</title>
+      <link>http://learningfromthelegends.com/instruments/violin/mendelssohn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://learningfromthelegends.com/instruments/violin/mendelssohn/</guid>
+      <description>Learning from the Legends presents world-renowned violin soloist Lara St. John teaching Mendelssohn’s Violin Concerto in E Minor, Op. 64.
+Aspiring violinists can take their playing to the next level by practicing this essential repertoire. St. John provides complete, detailed lessons covering all three movements. Have your very own private lesson with one of the world’s greatest virtuoso performers, right from your screen. You will learn advanced techniques and special devices used by top performers to captivate and amaze their audiences.</description>
+    </item>
+    
+  </channel>
+</rss>

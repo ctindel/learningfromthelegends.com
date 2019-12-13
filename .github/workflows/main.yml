@@ -1,13 +1,25 @@
-name: CI
+name: hugo publish
 
 on: [push]
 
 jobs:
-  build:
+  publish:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
-    - name: Hugo Actions
-      uses: srt32/hugo-action@v0.0.3
+    - name: build
+      uses: github-actions-x/hugo@master
+      with:
+        args: -d public/
+    - name: debug
+      run: echo ${{ github.ref }}
+    - name: push
+      uses: github-actions-x/commit@v2.1
+      if: github.ref == 'refs/heads/master'
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'hugo publish!'
+        files: public/
