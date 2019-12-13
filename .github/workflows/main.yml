@@ -1,9 +1,12 @@
 name: hugo publish
 
-on: [push]
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
-  build:
+  publish:
 
     runs-on: ubuntu-latest
 
@@ -15,7 +18,7 @@ jobs:
       uses: github-actions-x/commit@v2.1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'staging'
+        push-branch: 'master'
         commit-message: 'hugo publish!'
         force-add: 'true'
         files: public/
