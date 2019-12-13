@@ -1,9 +1,6 @@
 name: hugo publish
 
-on: 
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   publish:
@@ -16,6 +13,7 @@ jobs:
       uses: github-actions-x/hugo@master
     - name: push
       uses: github-actions-x/commit@v2.1
+      if: github.ref == 'master'
       with:
         args: -d public/
         github-token: ${{ secrets.GITHUB_TOKEN }}
