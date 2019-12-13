@@ -11,11 +11,14 @@ jobs:
     - uses: actions/checkout@v1
     - name: build
       uses: github-actions-x/hugo@master
+      with:
+        args: -d public/
+    - name: debug
+      run: echo ${{ github.ref }}
     - name: push
       uses: github-actions-x/commit@v2.1
       if: github.ref == 'master'
       with:
-        args: -d public/
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'hugo publish!'
