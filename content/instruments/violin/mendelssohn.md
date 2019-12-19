@@ -28,6 +28,7 @@ Watch and learn as St. John breaks down each movement, measure by measure, and e
   * Advanced Bowing Techniques
   * Tone Building
   * and more...
+
 ![Mendelssohn Screen Captures](/img/instruments/violin/Mendelssohn-Features-caps.jpg "")
 
 {{< sheet_music_download >}}
