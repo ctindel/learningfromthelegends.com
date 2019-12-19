@@ -77,8 +77,28 @@
   </url>
   
   <url>
+    <loc>http://new.learningfromthelegends.com/instruments/trumpet/haydn/</loc>
+  </url>
+  
+  <url>
     <loc>http://new.learningfromthelegends.com/instruments/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://new.learningfromthelegends.com/instruments/trumpet/hummel/</loc>
+  </url>
+  
+  <url>
+    <loc>http://new.learningfromthelegends.com/instruments/violin/bruch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://new.learningfromthelegends.com/instruments/trumpet/</loc>
+  </url>
+  
+  <url>
+    <loc>http://new.learningfromthelegends.com/instruments/violin/</loc>
   </url>
   
 </urlset>
