@@ -19,8 +19,10 @@
     {{ $.Scratch.Add "end" "" }}
 {{ end }}
 
-<div style="position: relative; overflow: hidden;">
-    <iframe width="640" height="360"
-        src="http://www.youtube.com/embed/{{ index .Params 0 }}{{ $.Scratch.Get "start" }}{{ $.Scratch.Get "end" }}" allowfullscreen frameborder="0">
-    </iframe>
+<div class="row" style="margin-top: 15px;">
+    <div class="col-xs-12 text-center">
+        <iframe width="640" height="360"
+            src="http://www.youtube.com/embed/{{ index .Params 0 }}{{ $.Scratch.Get "start" }}{{ $.Scratch.Get "end" }}" allowfullscreen frameborder="0">
+        </iframe>
+    </div>
 </div>

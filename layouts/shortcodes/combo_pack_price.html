@@ -1,13 +1,22 @@
-<div class="container">
-    <div class="row" style="margin-bottom: 10px;">
-        <div class="col-sm-4">
-            <img src="{{.Get "src"}}"/>
+<div class="row" style="margin: 25px 0 10px 0;">
+    <div class="col-sm-4 text-center">
+        <img src="{{.Get "src"}}"/>
+    </div>
+    <div class="col-sm-7 col-sm-offset-1" style="background-color: #e0e0d3; border-radius: 4px; font-family: sans-serif; padding: 5px 15px 15px 15px; margin: 30px 20px 10px 20px;">
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col-xs-12"> 
+                <h4 class="text-center text-uppercase" style="color: #715041; font-size: 1.1em; font-family: sans-serif; letter-spacing: 2px;">Get the Combo</h4>
+            </div>
         </div>
-        <div class="col-sm-8" style="background-color: #e0e0d3; border-radius: 4px; width: 380px; padding: 15px; font-family: sans-serif;">
-            Regular Price: <s>{{.Get "origprice"}}</s><br/>
-            <span style="font-size: 15px; color: #715041; font-weight: bold;">Sale Price: {{(.Get "saleprice")}}</span><br/>
-            You Save: {{(.Get "savingspct" )}}%
-            <a href="{{(.Get "squareupurl")}}" target="_blank" style="background-color: #ff7300; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 13px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 200px; -webkit-text-size-adjust: none;">Buy Now</a>
+        <div class="row">
+            <div class="col-xs-4">
+                Regular Price: <s>{{.Get "origprice"}}</s><br/>
+                <span style="font-size: 15px; color: #715041; font-weight: bold;">Sale Price: {{(.Get "saleprice")}}</span><br/>
+                You Save: {{(.Get "savingspct" )}}%
+            </div>
+            <div class="col-xs-6 col-xs-offset-1">
+                <a href="{{(.Get "squareupurl")}}" target="_blank" style="background-color: #ff7300; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 13px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 100%; -webkit-text-size-adjust: none;">Buy Now</a>
+            </div>
         </div>
     </div>
 </div>
