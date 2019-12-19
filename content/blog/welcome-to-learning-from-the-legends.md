@@ -6,7 +6,7 @@ tags:
 categories:
   - "announcements"
 description: "Welcome to Learning from the Legends!"
-banner: "img/banners/L-glyph-3D.jpg"
+banner: "img/instruments/violin/Violin-2up-v2.png"
 author: "Chad Tindel"
 ---
 

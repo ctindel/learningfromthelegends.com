@@ -6,7 +6,7 @@ tags:
 categories:
   - "announcements"
 description: "Two New Trumpet DVDs Shipping Today!"
-banner: "img/banners/L-glyph-3D.jpg"
+banner: "img/instruments/trumpet/Trumpet-2up-v2.png"
 author: "Chad Tindel"
 ---
 
