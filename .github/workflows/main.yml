@@ -19,7 +19,7 @@ jobs:
       uses: github-actions-x/commit@v2.1
       if: github.ref == 'refs/heads/master'
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.LFTL_Page_Build_Secret }}
         push-branch: 'master'
         commit-message: 'hugo publish!'
         files: docs/
