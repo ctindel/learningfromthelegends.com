@@ -130,7 +130,7 @@ paginate = 10
     #contact_form_ajax = false
 
     about_us = "<p>Learning from the Legends enables students around the world to reach their highest potential for artistic excellence by providing access to exceptional instructional materials from preeminent teachers and performers while simultaneously providing teachers and performers with a unique opportunity to influence an entire generation of artistic minds. <P> Learning from the Legends will produce the first ever line of instructional videos that encompass the most essential band, orchestral, and choral audition repertoire. These lessons will be taught by the highest echelon of teachers and performers in a professional, organized, and consistent fashion. Our instructional materials will help students perfect their audition skills for the highly competitive admission processes of premier honor ensembles, universities, and conservatories worldwide."
-    copyright = "Copyright (c) 2010 - 2020, Learning from the Legends, Ltd.; all rights reserved."
+    copyright = "Copyright (c) 2010 - 2019, Learning from the Legends, Ltd.; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
