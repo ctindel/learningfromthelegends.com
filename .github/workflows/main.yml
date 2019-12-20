@@ -27,6 +27,6 @@ jobs:
       uses: actions/github-script@0.3.0
       if: github.ref == 'refs/heads/master'
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.LFTL_Page_Build_Secret }}
         script: |
           github.repos.requestPageBuild({...context.owner, ...context.repo})
