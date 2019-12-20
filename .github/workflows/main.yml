@@ -23,10 +23,3 @@ jobs:
         push-branch: 'master'
         commit-message: 'hugo publish!'
         files: docs/
-    - name: publish
-      uses: actions/github-script@0.3.0
-      if: github.ref == 'refs/heads/master'
-      with:
-        github-token: ${{ secrets.LFTL_Page_Build_Secret }}
-        script: |
-          github.repos.requestPageBuild({...context.owner, ...context.repo})
