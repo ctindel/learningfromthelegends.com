@@ -292,7 +292,7 @@ We welcome all forms of feedback from our customers. Are you happy with the cont
         &lt;/div&gt;
         &lt;div class=&#34;row&#34;&gt;
             &lt;div class=&#34;col-xs-4&#34;&gt;
-                Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;br/&gt;
+                &lt;nobr&gt;Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;/nobr&gt;&lt;br/&gt;
                 &lt;span style=&#34;font-size: 15px; color: #715041; font-weight: bold;&#34;&gt;Sale&amp;nbsp;Price:&amp;nbsp;39.99&lt;/span&gt;&lt;br/&gt;
                 You&amp;nbsp;Save:&amp;nbsp;73%
             &lt;/div&gt;
@@ -440,7 +440,7 @@ We welcome all forms of feedback from our customers. Are you happy with the cont
         &lt;/div&gt;
         &lt;div class=&#34;row&#34;&gt;
             &lt;div class=&#34;col-xs-4&#34;&gt;
-                Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;br/&gt;
+                &lt;nobr&gt;Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;/nobr&gt;&lt;br/&gt;
                 &lt;span style=&#34;font-size: 15px; color: #715041; font-weight: bold;&#34;&gt;Sale&amp;nbsp;Price:&amp;nbsp;39.99&lt;/span&gt;&lt;br/&gt;
                 You&amp;nbsp;Save:&amp;nbsp;73%
             &lt;/div&gt;
@@ -586,7 +586,7 @@ We welcome all forms of feedback from our customers. Are you happy with the cont
         &lt;/div&gt;
         &lt;div class=&#34;row&#34;&gt;
             &lt;div class=&#34;col-xs-4&#34;&gt;
-                Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;br/&gt;
+                &lt;nobr&gt;Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;/nobr&gt;&lt;br/&gt;
                 &lt;span style=&#34;font-size: 15px; color: #715041; font-weight: bold;&#34;&gt;Sale&amp;nbsp;Price:&amp;nbsp;39.99&lt;/span&gt;&lt;br/&gt;
                 You&amp;nbsp;Save:&amp;nbsp;73%
             &lt;/div&gt;
@@ -732,7 +732,7 @@ We welcome all forms of feedback from our customers. Are you happy with the cont
         &lt;/div&gt;
         &lt;div class=&#34;row&#34;&gt;
             &lt;div class=&#34;col-xs-4&#34;&gt;
-                Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;br/&gt;
+                &lt;nobr&gt;Regular&amp;nbsp;Price:&amp;nbsp;&lt;s&gt;149.99&lt;/s&gt;&lt;/nobr&gt;&lt;br/&gt;
                 &lt;span style=&#34;font-size: 15px; color: #715041; font-weight: bold;&#34;&gt;Sale&amp;nbsp;Price:&amp;nbsp;39.99&lt;/span&gt;&lt;br/&gt;
                 You&amp;nbsp;Save:&amp;nbsp;73%
             &lt;/div&gt;
