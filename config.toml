@@ -19,45 +19,71 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    identifier="home"
+    identifier="menu.home"
     name = "Home"
     url  = "/"
     weight = 1
 
 [[menu.main]]
-    identifier="instruments"
+    identifier="menu.instruments"
     name = "Instruments"
-    url  = "/instruments/"
+    url  = "/img/instruments/instruments_menu_icon.jpg"
     weight = 2
 
 [[menu.main]]
-    parent = "instruments"
-    identifier="instruments_violin"
-    name = "Violin"
-    url  = "/instruments/violin"
-    weight = 1
+    name       = "Violin"
+    identifier = "section.violin"
+    url        = "/instruments/violin"
+    weight     = 1
+    parent     = "menu.instruments"
+    post       = 1
 
 [[menu.main]]
-    parent = "instruments"
-    identifier="instruments_trumpet"
-    name = "Trumpet"
-    url  = "/instruments/trumpet"
-    weight = 2
+    name       = "Trumpet"
+    identifier = "section.trumpet"
+    url        = "/instruments/trumpet"
+    weight     = 2
+    parent     = "menu.instruments"
+    post       = 2
 
 [[menu.main]]
-    identifier="blog"
+    name       = "Mendelssohn"
+    url        = "/instruments/violin/mendelssohn"
+    weight     = 1
+    parent     = "section.violin"
+
+[[menu.main]]
+    name       = "Bruch"
+    url        = "/instruments/violin/bruch"
+    weight     = 2
+    parent     = "section.violin"
+
+[[menu.main]]
+    name       = "Haydn"
+    url        = "/instruments/trumpet/haydn"
+    weight     = 1
+    parent     = "section.trumpet"
+
+[[menu.main]]
+    name       = "Hummel"
+    url        = "/instruments/trumpet/hummel"
+    weight     = 2
+    parent     = "section.trumpet"
+
+[[menu.main]]
+    identifier="menu.blog"
     name = "Blog"
     url  = "/blog/"
     weight = 3
 
 [[menu.main]]
-    identifier = "faq"
+    identifier = "menu.faq"
     name = "FAQ"
     url  = "/faq/"
     weight = 4
 
 [[menu.main]]
-    identifier = "contact"
+    identifier = "menu.contact"
     name = "Contact"
     url  = "/contact/"
     weight = 5
@@ -152,8 +178,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us at info@learningfromthelegends.com</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+    text = """<p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """

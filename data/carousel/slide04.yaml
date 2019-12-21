@@ -1,4 +1,7 @@
 weight: 4
 title: "Develop"
-description: "your skills by practicing with a piano accompaniment Play-Along track"
+description: >
+  <ul class="list-style-none">
+    <li>your skills by practicing with a piano accompaniment Play-Along track</li>
+  </ul>
 image: "img/carousel/slide04.jpg"

@@ -7,7 +7,7 @@ tags:
 categories:
   - "announcements"
 description: "High Definition Streaming Now Available!"
-banner: "img/banners/L-glyph-3D.jpg"
+banner: "img/banners/amazon-instant-video-logo.jpg"
 author: "Chad Tindel"
 ---
 

@@ -6,7 +6,7 @@ tags:
 categories:
   - "announcements"
 description: "Rolf Smedvig Trumpet Exercise Book Now Available!"
-banner: "img/banners/L-glyph-3D.jpg"
+banner: "img/banners/trumpet-exercise-book.jpg"
 author: "Chad Tindel"
 ---
 

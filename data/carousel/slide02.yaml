@@ -1,4 +1,7 @@
 weight: 2
 title: "Watch"
-description: "and learn as the world's greatest performers break down each piece measure by measure"
+description: >
+  <ul class="list-style-none">
+    <li>and learn as the world's greatest performers break down each piece measure by measure</li>
+  </ul>
 image: "img/carousel/slide02.jpg"

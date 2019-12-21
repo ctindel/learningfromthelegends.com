@@ -1,4 +1,7 @@
 weight: 3
 title: "Study"
-description: "a full performance of each piece along with an annotated copy of the score"
+description: >
+  <ul class="list-style-none">
+    <li>a full performance of each piece along with an annotated copy of the score</li>
+  </ul>
 image: "img/carousel/slide03.jpg"
