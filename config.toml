@@ -1,5 +1,5 @@
 baseurl = "http://new.learningfromthelegends.com"
-title = "Universal"
+title = "Learning from the Legends"
 theme = "hugo-universal-theme"
 themesDir = "./themes"
 languageCode = "en-us"
