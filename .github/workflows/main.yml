@@ -8,16 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v1
       with:
         ref: master
-    - uses: actions/checkout@master
-    - name: Checkout submodules
-      shell: bash
-      run: |
-        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-        git submodule sync --recursive
-        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+        submodules: recursive
     - name: build
       uses: github-actions-x/hugo@master
       with:
@@ -25,7 +19,7 @@ jobs:
     - name: debug
       run: echo ${{ github.ref }}
     - name: push
-      uses: github-actions-x/commit@v2.1
+      uses: github-actions-x/commit@master
       if: github.ref == 'refs/heads/master'
       with:
         github-token: ${{ secrets.LFTL_Page_Build_Secret }}
