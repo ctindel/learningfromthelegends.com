@@ -82,16 +82,11 @@ paginate = 10
     url  = "/faq/"
     weight = 4
 
-[[menu.main]]
-    identifier = "menu.contact"
-    name = "Contact"
-    url  = "/contact/"
-    weight = 5
 
 [[menu.main]]
     identifier = "menu.order"
     name = "Order Now"
-    weight = 6
+    weight = 5
 
 [[menu.main]]
     name       = "For Consumers"
