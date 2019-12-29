@@ -15,7 +15,7 @@ jobs:
       with:
         args: -d docs/
     - name: debug
-      run: echo ${{ github.ref }}
+      run: echo ${{ github.ref }} && ls -ali static/img/carousel/
     - name: push
       if: github.ref == 'refs/heads/master'
       uses: github-actions-x/commit@master
