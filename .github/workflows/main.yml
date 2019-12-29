@@ -19,7 +19,8 @@ jobs:
     - name: debug
       run: echo ${{ github.ref }}
     - name: push
-      uses: github-actions-x/commit@master
+      uses: github-actions-x/commit@2.3
+      run: echo "In the push stage" ${{ github.ref }}
       if: github.ref == 'refs/heads/master'
       with:
         github-token: ${{ secrets.LFTL_Page_Build_Secret }}
