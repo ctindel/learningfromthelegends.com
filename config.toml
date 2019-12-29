@@ -88,6 +88,23 @@ paginate = 10
     url  = "/contact/"
     weight = 5
 
+[[menu.main]]
+    identifier = "menu.order"
+    name = "Order Now"
+    weight = 6
+
+[[menu.main]]
+    name       = "For Consumers"
+    url        = "/consumers"
+    weight     = 1
+    parent     = "menu.order"
+
+[[menu.main]]
+    name       = "For Educational Institutions"
+    url        = "/educators"
+    weight     = 2
+    parent     = "menu.order"
+
 # Top bar social links menu
 
 
