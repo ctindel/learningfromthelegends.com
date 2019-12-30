@@ -92,7 +92,8 @@
 
 .longtestimonials .item {
   list-style-type: none;
-  margin: 5px 50px 30px 15px;
+  margin: 5px 50px 30px 15px;/* Looks good on desktop*/
+  /*margin: 5px 0px 30px 0px;*/ /*Looks good on mobile*/
   background: #fff;
   padding-bottom: 60px;
   -webkit-box-sizing: border-box;
@@ -141,27 +142,7 @@
   height: 50px;
 }
 
-.longtestimonials .item:nth-of-type(even) .longtestimonial .bottom .icon {
-  color: #38a7bb;
-  font-size: 30px;
-  float: left;
-  width: 5%;
-}
-
-.longtestimonials .item:nth-of-type(odd) .longtestimonial .bottom .icon {
-  color: #38a7bb;
-  font-size: 30px;
-  float: right;
-  width: 5%;
-}
-
-.longtestimonials .item:nth-of-type(even) .longtestimonial .name-picture {
-  float: right;
-  width: 95%;
-  text-align: right;
-}
-
-.longtestimonials .item:nth-of-type(odd) .longtestimonial .name-picture {
+.longtestimonials .item .longtestimonial .name-picture {
   float: left;
   width: 95%;
   text-align: left;
@@ -179,14 +160,7 @@
   font-size: 12px;
 }
 
-.longtestimonials .item:nth-of-type(even) .longtestimonial .name-picture img {
-  float: right;
-  width: 60px;
-  border-radius: 30px;
-  margin-left: 10px;
-}
-
-.longtestimonials .item:nth-of-type(odd) .longtestimonial .name-picture img {
+.longtestimonials .item .longtestimonial .name-picture img {
   float: left;
   width: 60px;
   border-radius: 30px;
