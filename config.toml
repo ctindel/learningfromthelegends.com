@@ -1,4 +1,4 @@
-baseurl = "http://new.learningfromthelegends.com"
+baseurl = "http://learningfromthelegends.com"
 title = "Learning from the Legends"
 theme = "hugo-universal-theme"
 themesDir = "./themes"
