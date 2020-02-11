@@ -1,4 +1,8 @@
-weight: 5
+weight: 6
 title: "Hummel"
-description: ""
+description: >
+  <ul class="list-style-none">
+    <li>Have your very own private lesson with one of the world’s greatest virtuoso performers, right from your screen</li>
+    <li>Watch and learn as Smedvig breaks down each movement, measure by measure, and explains his unique perspective and approach to this enchanting piece of music</li>
+  </ul>
 image: "img/carousel/slide06.jpg"

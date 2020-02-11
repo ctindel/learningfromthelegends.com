@@ -1,4 +1,8 @@
-weight: 5
+weight: 7
 title: "Bruch"
-description: ""
+description: >
+  <ul class="list-style-none">
+    <li>Learning from the Legends presents world-renowned violin soloist Lara St. John teaching Bruch's Violin Concerto No. 1 in G Minor, Op. 26</li>
+    <li>Take your playing to the next level with this essential repertoire for any aspiring violinist</li>
+  </ul>
 image: "img/carousel/slide07.jpg"

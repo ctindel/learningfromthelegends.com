@@ -1,4 +1,8 @@
-weight: 5
+weight: 8
 title: "Mendelssohn"
-description: ""
+description: >
+  <ul class="list-style-none">
+    <li>St. John provides complete, detailed lessons covering all three movements</li>
+    <li>Watch and learn as St. John breaks down each movement, measure by measure, and explains her unique perspective and approach to this enchanting work</li>
+  </ul>
 image: "img/carousel/slide08.jpg"

@@ -1,4 +1,8 @@
 weight: 5
 title: "Haydn"
-description: ""
+description: >
+  <ul class="list-style-none">
+    <li>Learning from the Legends presents world-renowned trumpet virtuoso Rolf Smedvig teaching Haydn's Trumpet Concerto in E-flat Major</li>
+    <li>Aspiring trumpet players can take their playing to the next level with this essential repertoire. Smedvig provides complete, detailed lessons on all three movements</li>
+  </ul>
 image: "img/carousel/slide05.jpg"
