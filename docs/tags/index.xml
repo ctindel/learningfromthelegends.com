@@ -1,30 +1,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Learning from the Legends</title>
-    <link>http://new.learningfromthelegends.com/tags/</link>
+    <link>http://learningfromthelegends.com/tags/</link>
     <description>Recent content in Tags on Learning from the Legends</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://new.learningfromthelegends.com/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://learningfromthelegends.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>trumpet</title>
-      <link>http://new.learningfromthelegends.com/tags/trumpet/</link>
+      <link>http://learningfromthelegends.com/tags/trumpet/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://new.learningfromthelegends.com/tags/trumpet/</guid>
+      <guid>http://learningfromthelegends.com/tags/trumpet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>violin</title>
-      <link>http://new.learningfromthelegends.com/tags/violin/</link>
+      <link>http://learningfromthelegends.com/tags/violin/</link>
       <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://new.learningfromthelegends.com/tags/violin/</guid>
+      <guid>http://learningfromthelegends.com/tags/violin/</guid>
       <description></description>
     </item>
     
