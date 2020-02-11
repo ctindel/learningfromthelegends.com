@@ -1,13 +1,5 @@
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
 
-.navbar-brand {
-  float: left;
-  padding: 0px 0px;
-  font-size: 18px;
-  line-height: 20px;
-  height: 62px;
-}
-
 .orderbutton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #8dc2eb;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #8dc2eb;
@@ -173,4 +165,8 @@
   width: 60px;
   border-radius: 30px;
   margin-right: 10px;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
 }
