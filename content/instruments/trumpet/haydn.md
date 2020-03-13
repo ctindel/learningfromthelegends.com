@@ -10,9 +10,9 @@ Aspiring trumpet players can take their playing to the next level with this esse
 
 Watch and learn as Smedvig breaks down each movement, measure by measure, and explains his unique perspective and approach to this enchanting piece of music.
 
-{{< dvd_price src="/img/instruments/trumpet/Haydn-3d-angled-noreflection.png" origprice="79.99" saleprice="24.99" savingspct="68" squareupurl="https://squareup.com/market/lftlegends/hadyn-trumpet-concerto-dvd-with-rolf-smedvig" amazonurl="http://www.amazon.com/Learning-Legends-Trumpet-Concerto-featuring/dp/B017AVXCRE/" amazonivurl="https://www.amazon.com/Movement-1/dp/B06WWJD8GK/ref=sr_1_1" >}}
+{{< dvd_price src="/img/instruments/trumpet/Haydn-3d-angled-noreflection.png" origprice="79.99" saleprice="24.99" savingspct="68" squareupurl="https://lftlegends.square.site/product/haydn-trumpet-concerto-dvd-with-rolf-smedvig/1" amazonurl="https://lftlegends.square.site/product/rolf-smedvig-promotional-2-dvd-bundle/3" amazonivurl="https://www.amazon.com/Movement-1/dp/B06WWJD8GK/ref=sr_1_1" >}}
 
-{{< combo_pack_price src="/img/instruments/trumpet/Combo-Pack-trumpet-web.jpg" origprice="149.99" saleprice="39.99" savingspct="73" squareupurl="https://squareup.com/market/lftlegends/rolf-smedvig-promotional-dvd-bundle" >}}
+{{< combo_pack_price src="/img/instruments/trumpet/Combo-Pack-trumpet-web.jpg" origprice="149.99" saleprice="39.99" savingspct="73" squareupurl="https://lftlegends.square.site/product/rolf-smedvig-promotional-2-dvd-bundle/3" >}}
 
 {{< youtube_trailer ZDPPgQ9JVQM >}}
 
