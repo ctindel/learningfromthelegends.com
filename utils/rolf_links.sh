@@ -18,11 +18,11 @@ HUMMEL["Hummel_Movement_2"]="s3://lftl.co/RS/HD/LFTL Rolf Smedvig Hummel Mvt 2 2
 HUMMEL["Hummel_Movement_3"]="s3://lftl.co/RS/HD/LFTL Rolf Smedvig Hummel Mvt 3 20150223.mp4"
 
 for key in ${!HAYDN[@]}; do
-    presignUrl=$(aws s3 presign "${HAYDN[${key}]}" --expires-in 86400)
+    presignUrl=$(aws s3 presign "${HAYDN[${key}]}" --expires-in $EXPIRES_SECS)
     echo "\"${key}\",\"$presignUrl\""
 done
 
 for key in ${!HUMMEL[@]}; do
-    presignUrl=$(aws s3 presign "${HUMMEL[${key}]}" --expires-in 86400)
+    presignUrl=$(aws s3 presign "${HUMMEL[${key}]}" --expires-in $EXPIRES_SECS)
     echo "\"${key}\",\"$presignUrl\""
 done

@@ -19,11 +19,11 @@ MENDELSSOHN["Mendelssohn_Movement_3"]="s3://lftl.co/LSJ/HD/LFTL Lara St. John Me
 MENDELSSOHN["Mendelssohn_Performance"]="s3://lftl.co/LSJ/HD/LFTL Lara St. John Mendelssohn Performance 20150226.mp4"
 
 for key in ${!BRUCH[@]}; do
-    presignUrl=$(aws s3 presign "${BRUCH[${key}]}" --expires-in 86400)
+    presignUrl=$(aws s3 presign "${BRUCH[${key}]}" --expires-in $EXPIRES_SECS)
     echo "\"${key}\",\"$presignUrl\""
 done
 
 for key in ${!MENDELSSOHN[@]}; do
-    presignUrl=$(aws s3 presign "${MENDELSSOHN[${key}]}" --expires-in 86400)
+    presignUrl=$(aws s3 presign "${MENDELSSOHN[${key}]}" --expires-in $EXPIRES_SECS)
     echo "\"${key}\",\"$presignUrl\""
 done
