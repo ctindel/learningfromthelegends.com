@@ -18,9 +18,10 @@ jobs:
       run: echo ${{ github.ref }} && ls -ali static/img/carousel/
     - name: push
       if: github.ref == 'refs/heads/master'
-      uses: github-actions-x/commit@v2.1
+      uses: github-actions-x/commit@v2.8
       with:
-        github-token: ${{ secrets.LFTL_Page_Build_Secret }}
+        # github-token: ${{ secrets.LFTL_Page_Build_Secret }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'hugo publish!'
         files: docs/
