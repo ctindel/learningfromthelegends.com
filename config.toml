@@ -198,18 +198,33 @@ paginate = 10
     tags = false
     search = false
 
-[params.carousel]
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
     enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+#[params.carousel]
+#    enable = true
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
 [params.features]
     enable = true
-    two_features_per_row = true
+    cols = 2
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
+
+[params.carouselTestimonials]
+    items = 4
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
 
 [params.testimonials]
     enable = true
