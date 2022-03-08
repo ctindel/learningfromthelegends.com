@@ -1,0 +1,31 @@
+{{ if gt (len .Site.Data.donatetestimonials) 0 }}
+<section class="bar background-pentagon no-mb">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                
+                <ul class="longtestimonials">
+                    {{ range .Site.Data.donatetestimonials }}
+                    <li class="item">
+                        <div class="longtestimonial">
+                            <div class="text">
+                                <p>{{ .longtext | markdownify }}</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="name-picture">
+                                    <img class="" alt="" src="{{ .avatar | absURL }}">
+                                    <h5>{{ .name }}</h5>
+                                    <p>{{ .position }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.bar -->
+{{ end }}

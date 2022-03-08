@@ -82,7 +82,6 @@ paginate = 10
     url  = "/faq/"
     weight = 4
 
-
 [[menu.main]]
     identifier = "menu.order"
     name = "Order Now"
@@ -100,8 +99,14 @@ paginate = 10
     weight     = 2
     parent     = "menu.order"
 
-# Top bar social links menu
 
+[[menu.main]]
+    identifier = "menu.donate"
+    name = "Donate"
+    url  = "/donate/"
+    weight = 6
+
+# Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
