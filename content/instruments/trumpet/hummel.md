@@ -10,9 +10,9 @@ Aspiring trumpet players can take their playing to the next level with this esse
 
 Watch and learn as Smedvig breaks down each movement, measure by measure, and explains his unique perspective and approach to this enchanting piece of music.
 
-{{< dvd_price src="/img/instruments/trumpet/Hummel-3d-angled-noreflection.png" origprice="79.99" saleprice="24.99" savingspct="68" squareupurl="https://lftlegends.square.site/product/hummel-trumpet-concerto-dvd-with-rolf-smedvig/6" amazonurl="http://www.amazon.com/Learning-Legends-Hummels-Concerto-featuring/dp/B017AVXQGG/" amazonivurl="https://www.amazon.com/Movement-1/dp/B06WW9TDJS/ref=sr_1_4" >}}
+{{< product_price src="/img/instruments/trumpet/Hummel-3d-angled-noreflection.png" origprice="79.99" saleprice="24.99" savingspct="68" squareupdvdurl="https://lftlegends.square.site/product/hummel-trumpet-concerto-dvd-with-rolf-smedvig/6" squareupdownloadurl="https://lftlegends.square.site/product/hummel-trumpet-concerto-with-rolf-smedvig-digital-download-/9" >}}
 
-{{< combo_pack_price src="/img/instruments/trumpet/Combo-Pack-trumpet-web.jpg" origprice="149.99" saleprice="39.99" savingspct="73" squareupurl="https://lftlegends.square.site/product/rolf-smedvig-promotional-2-dvd-bundle/3" >}}
+{{< combo_pack_price src="/img/instruments/trumpet/Combo-Pack-trumpet-web.jpg" origprice="149.99" saleprice="39.99" savingspct="73" squareupdvdurl="https://lftlegends.square.site/product/rolf-smedvig-promotional-2-dvd-bundle/3" squareupdownloadurl="https://lftlegends.square.site/product/rolf-smedvig-2-pack-bundle-digital-download-/8" >}}
 
 {{< youtube_trailer cIYde4ChpV4 >}}
 

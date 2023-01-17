@@ -10,9 +10,9 @@ Aspiring violinists can take their playing to the next level by practicing this 
 
 Watch and learn as St. John breaks down each movement, measure by measure, and explains her unique perspective and approach to this enchanting work.
 
-{{< dvd_price src="/img/instruments/violin/Bruch-3d-angled-noreflection.jpg" origprice="79.99" saleprice="24.99" savingspct="68" squareupurl="https://lftlegends.square.site/product/bruch-concerto-dvd-with-lara-st-john/5" amazonurl="https://www.amazon.com/dp/B00KOW4CE4" amazonivurl="https://www.amazon.com/Movement-1/dp/B06WW4BKXD/ref=sr_1_2" >}}
+{{< product_price src="/img/instruments/violin/Bruch-3d-angled-noreflection.jpg" origprice="79.99" saleprice="24.99" savingspct="68" squareupdvdurl="https://lftlegends.square.site/product/bruch-concerto-dvd-with-lara-st-john/5" squareupdownloadurl="https://lftlegends.square.site/product/bruch-concerto-with-lara-st-john-digital-download-/10" >}}
 
-{{< combo_pack_price src="/img/instruments/violin/Combo-Pack-violin-web.jpg" origprice="149.99" saleprice="39.99" savingspct="73" squareupurl="https://lftlegends.square.site/product/lara-st-john-promotional-2-dvd-bundle/2" >}}
+{{< combo_pack_price src="/img/instruments/violin/Combo-Pack-violin-web.jpg" origprice="149.99" saleprice="39.99" savingspct="73" squareupdvdurl="https://lftlegends.square.site/product/lara-st-john-promotional-2-dvd-bundle/2" squareupdownloadurl="https://lftlegends.square.site/product/lara-st-john-2-pack-bundle-digital-download-/11" >}}
 
 {{< youtube_trailer ZEDBgngwrsY >}}
 
