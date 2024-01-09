@@ -2,25 +2,21 @@
     <div class="col-sm-4 text-center">
         <img src="{{.Get "src"}}"/>
     </div>
-    <div class="col-sm-7 col-sm-offset-1" style="background-color: #e0e0d3; border-radius: 4px; font-family: sans-serif; padding: 5px 15px 15px 15px; margin: 30px 20px 10px 20px;">
+    <div class="col-sm-7" style="background-color: #e0e0d3; border-radius: 4px; font-family: sans-serif; padding: 5px 15px 15px 15px; margin: 30px 20px 10px 20px;">
         <div class="row" style="margin-bottom: 15px;">
-            <div class="col-xs-12">
+            <div class="col-xs-10">
                 <h4 class="text-center text-uppercase" style="color: #715041; font-size: 1.1em; font-family: sans-serif; letter-spacing: 2px;">On Sale Now!</h4>
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-4">
-            Regular&nbsp;Price:&nbsp;<s>{{.Get "origprice"}}</s><br/>
-            <span style="font-size: 15px; color: #715041; font-weight: bold;">Sale&nbsp;Price:&nbsp;{{(.Get "saleprice")}}</span><br/>
-            You&nbsp;Save:&nbsp;{{(.Get "savingspct" )}}%
+            <div class="col-xs-6 text-center">
+                <nobr>Regular&nbsp;Price:&nbsp;<s>{{.Get "origprice"}}</s></nobr><br/>
+                <span style="font-size: 15px; color: #715041; font-weight: bold;">Sale&nbsp;Price:&nbsp;{{(.Get "saleprice")}}</span><br/>
+                You&nbsp;Save:&nbsp;{{(.Get "savingspct" )}}%
             </div>
-            <div class="col-xs-5">
+            <div class="col-xs-4">
             <a href="{{(.Get "squareupdownloadurl")}}" target="_blank" style="background-color: #ff7300; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 13px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 100%; -webkit-text-size-adjust: none;">Buy Digital Download</a>
             </div>
-            <div class="col-xs-3">
-            <a href="{{(.Get "squareupdvdurl")}}" target="_blank" style="background-color: #ff7300; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 13px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 100%; -webkit-text-size-adjust: none;">Buy DVD</a>
-            </div>
         </div>
-
     </div>
 </div>
